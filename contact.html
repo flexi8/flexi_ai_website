@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Flexi AI Labs</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0; background: #f4f7f8; color: #333;
+  }
+  header {
+    background-color: #0066cc;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  nav {
+    background: #004a99;
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a:hover {
+    background: #003366;
+  }
+  main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  h1, h2 {
+    color: #004a99;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  label {
+    font-weight: 600;
+  }
+  input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #004a99;
+  }
+  footer {
+    background: #004a99;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+  @media (max-width:600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav a {
+      padding: 0.8rem;
+      border-top: 1px solid #003366;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Contact Flexi AI Labs</h1>
+  <p>We’d love to hear from you!</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="lexie.html">Lexie</a>
+  <a href="dexy.html">Dexy</a>
+  <a href="sophie.html">Sophie</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" style="background:#003366;">Contact</a>
+</nav>
+
+<main>
+  <section>
+    <h2>Get in Touch</h2>
+    <form action="mailto:flexiailabs@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="Name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="Message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Flexi AI Labs | Developed by Flexi AI Labs</p>
+</footer>
+</body>
+</html>
